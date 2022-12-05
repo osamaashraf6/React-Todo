@@ -18,7 +18,7 @@ const Header = () => {
           textAlign: 'center',
         }}
       >
-        todos
+        todoos
       </h1>
     </header>
   );
