@@ -27,7 +27,7 @@ const InputTodo = ({ handleAddTodo }) => {
         onChange={onChange}
       />
       <button type="button" className="input-submit" onClick={addHandler}>
-        Submit
+        Submiit
       </button>
     </form>
   );
