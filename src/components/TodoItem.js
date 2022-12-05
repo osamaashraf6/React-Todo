@@ -39,7 +39,7 @@ const TodoItem = ({ todo, handleChange, handleRemove, setUpdate }) => {
           checked={todo.completed}
         />
         <button type="button" onClick={() => handleRemove(todo.id)}>
-          Delete
+          Deletee
         </button>
         <span style={todo.completed ? completedStyle : null}>{todo.title}</span>
       </div>
